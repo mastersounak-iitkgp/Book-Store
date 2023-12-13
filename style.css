@@ -1,0 +1,704 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar1{
+    height:54px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    width: 100%;
+}
+.logo img{
+    height:50px;
+    width:50px;
+}
+.hero-box-cover2{
+    margin-left: 70px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width:352px;
+    color: #14A8C9;
+    font-family: Jockey One;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.hamburger{
+    display: none;;
+}
+.search{
+    display: flex;
+    margin-left: 100px;
+}
+.search input {
+    width: 610px;
+    height: 30px;
+    border: 1px solid #61E2FE;
+    
+}
+.search button{
+    background: #61E2FE;
+    width: 76px;
+    height: 32px;
+    flex-shrink: 0;
+    border: none;
+    font-size: medium;
+}
+.search button:hover{
+    background-color: #2199b1;
+}
+.nav-loc{
+    color:#213156;
+    font-size: 0.85rem;
+    margin-left:300px;
+    margin-right:45px;
+    margin-top: 10px;
+}
+.add-icon{
+    color:#213156;
+    font-size: 1rem;
+    font-style: bold;
+    display: flex;
+    align-items: center;
+}
+.add-first{
+    margin-left: 17px;
+    
+}
+.add-sec{
+    margin-left: 5px;
+}
+.cart{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.sign-in button{
+    width: 87px;
+    height: 30px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 50px;
+    background-color: #ffffff;
+}
+.border{
+    border:none;
+}
+.border:hover{
+    border: 1px solid #61E2FE;
+}
+.nav-bar2{
+    height: 30px;
+    width: 100%;
+    flex-shrink: 0;
+    background: #061625;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+}
+.nav-bar{
+    position: fixed;
+    z-index: 10;
+} 
+.nav-icons a{
+    color: #FFF;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 20;
+    text-decoration: none;
+}
+.underline:hover{
+    border-bottom: 2px solid white;
+}
+.hero-box{
+    height:100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-box-main{
+    width:40vw; 
+    margin-left: 10px;
+}
+.hero-box-main h1{
+    font-family: sans-serif;
+    font-size: 48px;
+    color:#212529;
+}
+.hero-box-main span{
+    color:#14A8C9;
+    font-family: sans-serif;
+    font-size: 95px;
+    font-weight: bold;
+}
+.hero-box-cover{
+    height:100vh;
+    width: 60vw;
+    margin-top: 90px;
+    background-image: url(cover-img.jpg);
+    background-size: cover;
+}
+.hero-box-main p{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color:#212529;
+}
+.hero-box-main button{
+    width:220px;
+    height:48px;
+    background-color: #061625;
+    border-radius: 10px;
+    margin-top:20px;
+}
+.hero-box-main button a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.back-cover{
+    height:100vh;
+    width: 60vw;
+    background-color: #000;
+    opacity: 0.34;
+}
+.section{
+    width:1600px;
+    height:52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 50px;
+    border-top: 1px solid rgb(216, 214, 214);
+}
+.section span{
+    width:350px;
+    height:40px;
+    color:#212529;
+    font-size: 32px;
+    margin-top: 140px;
+}
+.section a{
+    color:rgb(31, 159, 174);
+    margin-top: 140px;
+}
+.row{
+    width:1700px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.box{
+    width:150px;
+    height:350px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.box img{
+    margin-left: 13px;
+}
+.book-title{
+    width:140px;
+    height:41px;
+    color:#676767;
+    font-size: 14px;
+    font-weight: 500;
+    margin:11px 0px 0px 5px;
+    text-align: center; 
+    font-family: sans-serif;
+}
+.author{
+    height:25px;
+    width:110px;
+    color:#332e2e;
+    font-size: 14px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+.price{
+    display: flex;
+    justify-content: space-evenly;
+} 
+.actualprice{
+    font-size: 16px;
+    color:#197388;
+    font-family: sans-serif;
+} 
+.del-price{
+    font-size: 16px;
+    font-family: sans-serif;
+    text-decoration: line-through;
+}
+.box button{
+    height: 30px;
+    width: 100px;
+    border:none;
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: #0a3c74;
+    color:white;
+}
+.add{
+    height: 30px;
+    width: 100px;
+    border:none;
+}
+.box button:hover{
+    background-color: #0d5cb6;
+}
+.add button:active{
+    color:rgb(56, 236, 56);
+}
+.box:hover{
+    height:400px;
+    transition: 1s;
+}
+.border1:hover{
+    border:1px solid rgb(124, 123, 123);
+    box-shadow: 0px 0px 5px 1px rgba(4, 144, 195, 0.75);
+}
+.row2{
+    width:1600px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 60px;
+    margin-top: 100px;
+    border-top: 1px solid rgb(216, 214, 214);
+}
+.fictions{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.fictions span{
+    width:350px;
+    height:40px;
+    color:#212529;
+    font-size: 32px;
+}
+.manga span{
+    width:350px;
+    height:40px;
+    color:#212529;
+    font-size: 32px;
+    margin-top: 100px;
+}
+.manga{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.medical-books{
+    height:482px;
+    width:1600px;
+    border-top: 1px solid rgb(216, 214, 214);
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.medical-books img{
+    margin-top: 50px;
+    margin-left: 20px;
+    height:482px;
+    width:1570px;
+}
+.recommend{
+    height:50px;
+    width:1600px;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 80px;
+    font-size: 24px;
+}
+.recommend input{
+    margin-left:400px;
+}
+.featured-author{
+    height:260px;
+    width:1500px;
+    background-color: #ececec;
+    margin-left: 105px;
+    margin-top: 50px;
+}
+.featured-author h3{
+    text-align: center;
+    color:rgb(31, 159, 174);
+    font-size: 34px;
+    margin-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.author-img img{
+    border-radius: 50%;
+}
+.author-img{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.author div{
+    align-items:center ;
+}
+.authorprofile p{
+    color:#212529;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.reviews{
+    width:1600px;
+    height:1555px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-top: 1px solid rgb(216, 214, 214);
+}
+.reviews form{
+    height:260px;
+    width:600px;
+    background-color: #f7f7f7;
+    display: block;
+    margin-top: 10px;
+}
+.cust-name{
+    height:30px;
+    width:400px;
+}
+.email{
+    height:30px;
+    width:400px;
+    margin-top: 20px;
+}
+.description{
+    height:60px;
+    width:400px;
+    margin-top: 20px;
+}
+.reviews h2{
+    color:#212529;
+    font-size: 32px;
+    margin-top: 100px;
+}
+.reviews p{
+    color:#213156;
+}
+.reviews button{
+    width: 200px;
+    height: 40px;
+    background-color: #213156;
+    font-size: 16px;
+    padding: 6px 12px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: white;
+}
+.reviews-snapshot{
+    margin-top: 30px;
+    width:850px;
+    height:212px;
+}
+.reviews-snapshot h5{
+    color:#212529;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.reviews-snapshot p{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.rating{
+    display: flex;
+}
+.star{
+    display: flex;
+    margin-top: 0px;
+}
+.num{
+    margin-top: 10px;
+}
+.bar{
+    width:720px;
+    height:10px;
+    background-color: #f7f7f7;
+    border: none;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.bar2{
+    width:360px;
+    height:10px;
+    background-color: #347d56;
+    border: none;
+}
+#star4{
+    width:260px;
+    height:10px;
+    background-color: #347d56;
+    border: none;
+}
+#star3{
+    width:190px;
+    height:10px;
+    background-color: #347d56;
+    border: none;
+}
+.nav-reviews{
+    display: flex;
+    justify-content: space-between;
+    width:1600px;
+    height:40px;
+    background-color: #f7f7f7;
+    color: #212529;
+    padding: 5px;
+}
+.scroll{
+    font-size: 30px;
+}
+.customer-reviews{
+    width: 1600px;
+    height:200px;
+    display: flex;
+    margin-top: 40px;
+    border-top: 1px solid rgb(216, 214, 214);
+}
+.customer-profile{
+    width:400px;
+    margin-top: 20px;
+}
+.customer-reviews button{
+    width:57px;
+    height:20px;
+    background-color: #ededed;
+    border: none;
+    color:#000000;
+    font-size: 13px;
+    font-family: sans-serif;
+    padding: 2px 11px;
+}
+.name{
+    font-size: 20px;
+    font-family: sans-serif;
+    color:#212529;
+    font-weight: 500;
+}
+.time{
+    color: #8d8d8d;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.review-details{
+    margin-top: 20px;
+}
+.review-details h5{
+    font-size: 20px;
+    font-family: sans-serif;
+    color:#212529;
+    font-weight: 500;
+}
+footer{
+    margin-top: 20px;
+}
+.panel1{
+    background-color: #37475a;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel1 a{
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 19px;
+    color:#ffffff;
+}
+.panel2{
+    background-color: #232f3e;
+    height:320px;
+    display:flex;
+    justify-content: space-evenly;
+    color:white;
+}
+ul{
+    margin-top: 40px;
+}
+ul a{
+    color:#dddddd;
+    display: block;
+    margin-top:10px;
+    font-size:0.85rem;
+}
+.panel3{
+    height:70px;
+    background-color: #232f3e;
+    color:white;
+    display:flex;
+    border-top: 0.2px solid #dddddd;
+    justify-content: center;
+    align-items: center;
+}
+.panel3-logo{
+    height: 40px;
+    width:260px;
+    font-size: 25px;
+    color:white;
+    display:flex;
+    justify-content: space-evenly;
+}
+.panel3 a{
+    text-decoration: none;
+    color: white;
+}
+.panel4{
+    background-color: #131a22;
+    color:#dddddd;
+    height:80px;
+    text-align: center;
+}
+.pages{
+    font-size:0.8rem;
+    padding-top: 25px;
+    margin-bottom: 2px;
+}
+.pages a{
+    margin-left: 10px;
+}
+.copywright{
+    font-size:0.7rem;
+}
+@media (max-width:1040px){
+    .nav-bar{
+        z-index: 20;
+        width:100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .nav-bar2{
+        display: none;
+    }
+    .logo span{
+        display: none;;
+    }
+    .logo{
+        width:50px;
+        margin-left: 5px;
+    }
+    .search{
+        margin-left: 30px;
+        width:290px;
+    }
+    .search input{
+        width:280px;
+    }
+    .search button{
+        width:40px;
+    }
+    .hamburger{
+        display: flex;
+        margin-left:15px; 
+    } 
+    .sign-in{
+        display: none;
+    }
+    .cart{
+        display: none;
+    }
+    .nav-loc{
+        display:none;
+    }
+    .hero-box{
+        background-image: url(cover-img.jpg);
+        background-size: cover;
+        position:relative;
+        z-index:0
+    }
+    .hero-box-cover{
+        display: none;
+    }
+    .hero-box-cover2{
+        background-color: black;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        width:100vw;
+        position: relative;
+        z-index:1;
+        opacity: 0.84;
+        margin: 0px;
+    }
+    .hero-box-main{
+        position: relative;
+        z-index:10;
+        width:50vw;
+        margin: 0px;
+        margin-right: 150px;
+    }
+    .hero-box-main h1 {
+        color:white;
+    }
+    .hero-box-main p{
+        color:white;
+    }
+    .section{
+        margin-left: 5px;
+    }
+    .row{
+        margin-left: 0px;;
+    }
+    .fictions{
+        margin-left: 0px;
+    }
+    .row2{
+        margin-left: 15px;
+    }
+    .medical-books{
+        display: none;
+    }
+    .nav-reviews{
+        display: block;
+        width:100%;
+        height:100px;
+    }
+    .featured-author{
+        display: none;
+    }
+    .reviews{
+        margin-left: 10px;
+        height:1700px;
+    }
+    .reviews h2{
+        margin-top: 20px;
+    }
+    .customer-reviews{
+        display: block;
+        height:250px;
+    }
+    .recommend{
+        display: block;
+        margin-left: 15px;
+    }
+    .recommend i{
+        margin-left: 15px;
+    } 
+    .recommend input{
+        margin-left: 15px;
+    }
+    .recommend .search{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+}
